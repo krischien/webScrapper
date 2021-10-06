@@ -1,0 +1,24 @@
+{
+  "name": "web-scrapper",
+  "version": "1.0.0",
+  "description": "a webscrapper app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krischien/webScrapper.git"
+  },
+  "author": "Kristian Joy C. Arendain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krischien/webScrapper/issues"
+  },
+  "homepage": "https://github.com/krischien/webScrapper#readme",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1"
+  }
+}
